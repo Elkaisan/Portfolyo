@@ -44,8 +44,4 @@ Feel free to reach out for collaboration or any questions!
 - 🌐 **Portfolio**: [Visit My Portfolio](https://elkaisan.github.io/Portfolyo/)
 - 💼 **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/zeynep-sarican/)
 
----
 
-## 📖 License
-
-This portfolio is open-source under the [MIT License](LICENSE).
