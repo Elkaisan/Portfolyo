@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --gradient-dark-blue: radial-gradient(#bdc3c7, #2c3e50) fixed;
+}
+
+html,
+body {
+  margin: 0;
+  /* height: 100%; */
+  background: var(--gradient-dark-blue);
+  background-attachment: fixed;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  scroll-behavior: smooth;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+a,
+a:hover,
+a:focus {
+  color: rgb(255, 255, 255) !important;
+}

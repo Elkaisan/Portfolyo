@@ -1,0 +1,116 @@
+@import url("/global/boilerplate.css");
+@import url("/global/fonts.css");
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-left: 4rem;
+}
+
+/* ----- START FONTS 
+------ */
+h1.text-body-emphasis {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+  font-size: clamp(3rem, 1.4rem + 3vw, 5rem);
+}
+
+/* Paragraph */
+.col-lg-6 p.lead {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500;
+  line-height: 1.7;
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+}
+
+/* Links */
+
+a.nav-link.active {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255) !important;
+}
+
+div.row:nth-child(2) {
+  justify-content: center;
+  gap: 3rem;
+}
+/* ----- ENDS FONTS ------ */
+
+button.btn {
+  padding: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container.col-xxl-12.px-4.py-5 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 1400px) {
+  .col-xxl-8 {
+    flex: 0 0 auto;
+    width: 100vw !important;
+    justify-content: center;
+  }
+}
+
+/* * MEDIA QUERIES */
+@media (min-width: 1400px) {
+  .center-on-small {
+    align-items: flex-end !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .center-on-small {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .hero-img.col-lg-6 img {
+    margin-left: 5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .hero-img.col-lg-6 img {
+    margin-left: 5rem;
+  }
+  #projects.container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .center-on-small {
+    flex-direction: column;
+  }
+  .hero-img img {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    position: relative;
+    width: 100%;
+  }
+  .offcanvas-body {
+    padding: 0;
+  }
+}
+/* ---- PROJECTS ----- */
+
+.album .container h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+/* .album.py-5.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+} */

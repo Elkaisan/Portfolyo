@@ -1,0 +1,108 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #d1dadd;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  text-align: left;
+  align-self: center;
+}
+
+.card img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+}
+
+span {
+  color: #ad7d52;
+}
+
+/* --------------------- */
+
+/* First Card  */
+
+/* Type */
+.first .type {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: gray;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+
+/* Title */
+.first .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+
+/* Made */
+.first .made {
+  font-size: 1rem;
+  margin-bottom: 13px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+/*  Second  Card   */
+
+/*  IMAGE */
+.second img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Type */
+.second .type {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: gray;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+
+/* Title */
+.second .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+
+/* Made */
+.second .made {
+  font-size: 1rem;
+  margin-bottom: 13px;
+  margin-left: 10px;
+}
+
+/* -------------------- MEDIA QUERIES --------------- */
+
+/* PHONES */
+@media (width <= 40em) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+}

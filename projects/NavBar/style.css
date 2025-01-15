@@ -1,0 +1,74 @@
+body,
+html {
+  background-color: #c7b4c4e9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: max-content;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+/* ---------- LEFT SECTION ---------- */
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/* ---------- INNER SECTION ---------- */
+
+.inner {
+  align-content: center;
+}
+
+.inner > * {
+  display: inline-flex;
+  list-style-type: none;
+  color: white;
+  gap: 1.5rem;
+  align-self: center;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+/* ---------- RIGHT SECTION ---------- */
+
+.right {
+  align-self: center;
+}
+
+.right fa-user-circle {
+  overflow: hidden;
+  display: none;
+}
+
+i {
+  margin: 0.75rem;
+}
+
+/* ------------------ RESPONSIVE ------------ */
+
+@media (min-width: 0px) and (max-width: 766px) {
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .inner {
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+  }
+}
+
+.right > * {
+}
+
+@media (min-width: 761px) and (max-width: 1280px) {
+}
